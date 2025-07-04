@@ -1,0 +1,52 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+Thai:wght@400;700&display=swap");
+
+body {
+  font-family: "Noto Sans Thai", sans-serif;
+}
+
+:root {
+  --primary: rgb(255 255 255);
+}
+
+.location {
+  left: 1rem;
+  top: 50%;
+  --tw-translate-y: -50%;
+}
+
+.title {
+  background: var(--primary);
+  font-size: 2vh;
+  color: rgb(0 0 0);
+}
+
+.sub-title {
+  font-size: 1.2vh;
+}
+
+.bg-main {
+  background: rgba(0, 0, 0, 0.5);
+  color: var(--primary);
+}
+
+.bg-item {
+  backdrop: rgb(0 0 0 / 0.05);
+}
+
+.sub-title-font-size {
+  font-size: 1vh;
+}
+
+.count-font-size {
+  font-size: 1vh;
+}
+
+.footer-font-size {
+  font-size: 1vh;
+}
+
+.progressbar {
+  background: var(--primary);
+  transition-timing-function: linear;
+  transition-property: width;
+}
